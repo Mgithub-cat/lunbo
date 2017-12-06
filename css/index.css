@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  /* -webkit-text-stroke-width: 0.2px; */
+  -moz-osx-font-smoothing: grayscale;
+}
+.banner{
+	width: 1226px;
+	height: 460px;
+	position: relative;
+	margin: 0 auto;
+}
+.banner .ban_l{
+	width: 234px;
+	height: 420px;
+	padding: 20px 0;
+	position: absolute;
+	top: 0;
+	margin: 0;
+	z-index: 50;
+	background-color: rgba(0,0,0,0.4);
+}
+.ban_l a{
+	width: 204px;
+	height: 42px;
+	padding-left: 30px;
+	line-height: 42px;
+	color: #fff;
+	font-size: 14px;
+	display: block;
+}
+.banner .ban_l span{
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin-right: 24px;
+}
+.banner .ban_l>div:hover .b{
+	background-color: #FF6700;
+}
+.banner .popup{
+	height: 460px;
+	position: absolute;
+	left: 234px;
+    top: 0;
+    z-index: 51;
+    background: #fff;
+    display: none;
+}
+.banner .popup1{
+	width:744px;
+}
+.banner .popup2{
+	width: 992px;
+}
+.banner .active1{
+	display: block;
+}
+.banner .pop{
+	width: 248px;
+	height: 460px;
+	float: left;
+}
+.banner .pop .po{
+	height: 40px;
+	padding: 18px 20px;
+    line-height: 40px;
+    color: #333;
+    /* transition: all .5s; */
+}
+.pic{
+	height: 460px;
+	transition: all .5s linear;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner .po img{
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+.banner .po:hover{
+	color: #FF6700;
+}
+/* .banner .im{
+	position: absolute;
+} */
+.banner .jian{
+	width: 42px;
+	height: 69px;
+	background-image: url("../img/icon-slides.png");
+	background-size: 166px 69px;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 8;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.banner .jian1{
+	background-position: -83px 0;
+	left: 234px;
+}
+.banner .jian2{
+	background-position: -125px 0;
+	right: 0px;
+}
+.banner .jian1:hover{
+	cursor: pointer;
+	background-position: 0 0;
+}
+.banner .jian2:hover{
+	cursor: pointer;
+	background-position: -41px 0;
+}
+.banner ul{
+	height: 10px;
+	width: 140px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index: 9;
+}
+ul li{
+	width: 5px;
+	height: 5px;
+	float: left;
+	margin: 0 5px;
+	border-radius: 60%;
+	border: 2px solid #67676B;
+	background-color: #26262B;
+}
